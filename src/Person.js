@@ -1,5 +1,11 @@
 import React, { Component } from 'react'; // class-based components
+import MoodTracker from './MoodTracker';
+
+
+
 class Person extends Component {
+  
+
     render() {
         const { info } = this.props;
         const { name } = info;
@@ -10,4 +16,6 @@ class Person extends Component {
         )
     }
 }
+
+
 export default Person;
